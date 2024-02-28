@@ -36,7 +36,7 @@ public class AthleteRestController {
     @GetMapping("/showFormToUpdate")
     public String showFormToUpdate(@RequestParam("athleteId") int theId, Model theModel) {
         Optional<Athlete> theAthlete = athleteService.findById(theId);
-        theModel.addAttribute("athlete", new Athlete());
+        theModel.addAttribute("athlete", theAthlete);
         return "athletes/athlete-form";
     }
 

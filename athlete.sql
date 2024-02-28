@@ -1,0 +1,1 @@
+SELECT * FROM athlete_directory.athlete;

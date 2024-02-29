@@ -1,12 +1,12 @@
 # Athletetism
 
-## Demo
-[crud.webm](https://github.com/anirudh-hegde/athletetism/assets/105560839/6f2fd967-1557-44ac-9633-21e78241da26)
-
 ## Intro
 Athletetism is an application implemented using Java Spring-Boot,MySQL and Thymeleaf.
 This performs CRUD operations of athletes which includes firstname, lastname,age and 
 competing sport of an an athlete.
+
+## Demo
+[crud.webm](https://github.com/anirudh-hegde/athletetism/assets/105560839/6f2fd967-1557-44ac-9633-21e78241da26)
 
 ## Requirements
 - Java JDK
